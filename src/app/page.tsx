@@ -2,6 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>Personal Finace tracker</>
+    <h1 className="text-amber-500 text-4xl font-bold">Personal Finace tracker</h1>
   );
 }
