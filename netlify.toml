@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "https://ai-enable-expense-tracker.netlify.app/dashboard"
+  status = 301
+  force = true
