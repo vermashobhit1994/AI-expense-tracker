@@ -10,18 +10,9 @@
     "lint": "eslint",
     "prepare": "husky",
     "format": "prettier --write .",
-    "lint-staged": {
-      "**/*": "prettier --write --ignore-unknown"
-    },
-    "test": "vitest --reporter=verbose",
-    "prisma:deploy": "npx prisma migrate deploy && npx prisma generate",
-    "prisma:migrate": "npx prisma migrate dev --name",
-    "prisma:push": "npx prisma db push && npx prisma generate",
-    "prisma:reset-dev": "run-s prisma:wipe prisma:seed dev",
-    "prisma:seed": "tsx ./prisma/seed.ts",
-    "prisma:setup": "prisma generate && prisma migrate deploy && prisma db push",
-    "prisma:studio": "npx prisma studio",
-    "prisma:wipe": "npx prisma migrate reset --force && npx prisma db push"
+    
+    "test": "vitest --reporter=verbose"
+    
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.8.0",
