@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -10,12 +9,12 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "target": "ES2023",
-	"ignoreDeprecations":"5.0",
-	"resolveJsonModule": true,
+    "ignoreDeprecations": "5.0",
+    "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-	
+
     "plugins": [
       {
         "name": "next"
